@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="styles/principal.css">
+    </head>
+    <body>
+        
+        <!--La pagina esta contenida en un div flexbox por columnas , Este flexbox contiene la cabecera, el cuerpo y la información y el pie-->
+        <div id="pagina">
+            <!--La cabecera es a su mismo un flexbox por filas con el logo, y el nombre con los botones, que estan contenidos en un flexbox por columnas-->
+            <header id="cabecera">
+                <div id="logo">
+                    <img src="res/logo.svg" id="logo_img"/>
+                </div>
+                <div id="nombreYBotones">
+                    <div id="Nombre">
+                        <h1>Science Fiction</h1>
+                    </div>
+                    <!--Los propios botones estan en  otro flexbox por filas-->
+                    <div id="Botones">
+                        <button class="Boton 1">Boton 1</button>
+                        <button class="Boton 2">Boton 2</button>
+                        <button class="Boton 3">Boton 3</button>
+                    </div>
+                    
+                </div>
+                
+            </header>
+            <!--El cuerpo funciona de forma similar, es un flexbox por filas con dos elementos, el cuerpo y los elementos auxiliares-->
+            <div id="CuerpoEInformacion">
+            <!--El cuerpo es una grid usando flexbox-->
+                <main id="Cuerpo">
+                    <a class="Cientifico" href="./cientifico.html">
+                        <img src="res/Tesla_retrato.jpeg" class="ItemPortrait"/>
+                        <p class="ItemName">Nikola Tesla</p>
+                    </a>
+                    <a class="Cientifico" href="./cientifico.html">
+                        <img src="res/Marie_curie_retrato.jpg" class="ItemPortrait"/>
+                        <p class="ItemName">Marie Curie</p>
+                    </a>
+                    <a class="Cientifico" href="./cientifico.html">
+                        <img src="res/Newton_retrato.jpg" class="ItemPortrait"/>
+                        <p class="ItemName">Isaac Newton</p>
+                    </a>
+                    <a class="Cientifico" href="./cientifico.html">
+                        <img src="res/Edison_retrato.jpg" class="ItemPortrait"/>
+                        <p class="ItemName">Thomas Edison</p>
+                    </a>
+                </main>
+                <!--La información solo contiene texto-->
+                <aside id="Informacion">
+                    <p id="TextoInformacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus labore quam quasi fugiat tenetur ratione obcaecati reiciendis libero expedita, sint, temporibus neque dicta. Eos molestias neque laboriosam ut, nemo similique!</p>
+                </aside>
+            </div>
+            <footer id="Pie">
+                <h2 class="footerText"><strong>Pie</strong></h2>
+                <p class="footerText">© 2023 Moisés Téllez Francisco</p>
+            </footer>
+        </div>
+
+
+    </body>
+</html>

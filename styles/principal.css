@@ -1,0 +1,190 @@
+
+
+body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../res/tesla_bg.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#pagina{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#cabecera{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 9em;
+    width: 100%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+}
+
+.Boton{
+    background-color: #130fe4;
+    color:#e4760f;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 1.3em;
+}
+
+.Boton:hover{
+    background-color: #e4760f;
+    color:#130fe4;
+}
+
+#nombreYBotones{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Nombre{
+    text-align: center;
+}
+
+#Botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 10%;
+
+}
+
+#logo_img{
+    width: 85%;
+    height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CuerpoEInformacion{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+
+#Pie{
+    flex: 1 1 auto;
+}
+
+#logo_img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+
+#Cuerpo{
+    width: 70%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.Cientifico{
+    width: 27%;
+    flex:none;
+    margin-bottom: 1%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #130fe4;
+    border: 0.5em solid #e4760f;
+    border-radius: 1em;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+
+.Cientifico:hover{
+    background-color: #e4760f;
+    border: 0.5em solid #130fe4;
+}
+
+.Cientifico:active{
+    box-shadow: inset 0em 0.5em 0.5em #130fe4;
+}
+
+.Cientifico:hover .ItemName{
+    color:#130fe4;
+}
+
+
+.ItemPortrait{
+    width: 80%;
+}
+
+.ItemName{
+    color:#e4760f;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 80%;
+}
+
+
+
+#Pie{
+    background-color: #130fe4;
+    border: 0.5em solid #e4760f;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#Informacion{
+    width: 20%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+    background-color: #e4760f;
+}
+
+#TextoInformacion{
+    color:#130fe4;
+
+}
+
+.footerText{
+    size: 3em;
+    color: #e4760f;
+}

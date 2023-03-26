@@ -1,0 +1,216 @@
+html{
+    font-size: 12pt;
+    font-family:'Times New Roman',Times,serif;
+}
+
+
+#pagina{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+#cabecera{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 9em;
+    width: 100%;
+    border-radius: 4em;
+    border: 0.5em solid black;
+    padding: 0.5em;
+}
+
+.Boton{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 1.5em;
+    border-radius: 1.3em;
+}
+
+.Boton:hover{
+    background-color: #e4760f;
+    color:#130fe4;
+}
+
+#nombreYBotones{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Nombre{
+    text-align: center;
+}
+
+#Botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 10%;
+
+}
+
+#logo_img{
+    width: 85%;
+    height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CuerpoEInformacion{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+
+#Cuerpo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+#ShareScreen{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    width: 90%;
+}
+
+.shareButton{
+    width: 5%;
+    height:fit-content;
+    margin: 2em;
+}
+
+#datosYRetrato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 2%;
+    margin: 1.5em;
+    gap: 1em;
+}
+
+#Retratos_location{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+    padding-right: 5%;
+    margin-right: 5%;
+}
+
+.Retrato{
+    flex: 1 1 auto;
+    border: 0.2em solid black;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+.PieRetrato{
+    color: black;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    margin: 10%;
+}
+
+.fotoRetrato{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10%;
+}
+
+
+
+#Pie{
+    flex: 1 1 auto;
+}
+
+#logo_img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+
+#Cuerpo{
+    width: 70%;
+    border-radius: 4em;
+    border: 0.5em solid black;
+    padding: 0.5em;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+.ItemPortrait{
+    width: 80%;
+}
+
+.ItemName{
+    color:#e4760f;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 80%;
+}
+
+
+
+#Pie{
+    background-color: white;
+    border: 0.5em solid black;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#Informacion{
+    width: 20%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+    background-color: #e4760f;
+    display: none;
+}
+
+#TextoInformacion{
+    color:#130fe4;
+
+}
+
+.footerText{
+    size: 3em;
+    color: black;
+}

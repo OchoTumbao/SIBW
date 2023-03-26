@@ -1,0 +1,311 @@
+html{
+    font-size: 12pt;
+    font-family: sans-serif;
+}
+
+body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../res/tesla_bg.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pagina{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'
+}
+
+#cabecera{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 9em;
+    width: 100%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+}
+
+.Boton{
+    background-color: #130fe4;
+    color:#e4760f;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 1.3em;
+}
+
+.Boton:hover{
+    background-color: #e4760f;
+    color:#130fe4;
+}
+
+#nombreYBotones{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Nombre{
+    text-align: center;
+}
+
+#Botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 10%;
+
+}
+
+#logo_img{
+    width: 85%;
+    height: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#CuerpoEInformacion{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+}
+
+#Cuerpo{
+    display: flex;
+    flex-direction: column;
+    background-color: #130fe4;
+    color: #e4760f;
+}
+
+#ShareScreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    width: 90%;
+}
+
+.shareButton{
+    width: 5%;
+    height:fit-content;
+    margin: 2em;
+}
+
+#datosYRetrato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 2%;
+    margin: 1.5em;
+    gap: 1em;
+}
+
+#Retratos_location{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 20%;
+    padding-right: 5%;
+    margin-right: 5%;
+}
+.Retrato{
+    flex: 1 1 auto;
+    border: 0.2em solid #e4760f;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e4760f;
+    width: 100%;
+    float:right
+}
+
+.PieRetrato{
+    color: #130fe4;
+    background-color: #e4760f;
+    width: fit-content;
+    text-align: center;
+    margin: 10%;
+}
+
+
+
+.fotoRetrato{
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10%;
+}
+
+
+
+#Pie{
+    flex: 1 1 auto;
+}
+
+#logo_img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+
+#Cuerpo{
+    width: 70%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+.ItemPortrait{
+    width: 80%;
+}
+
+.ItemName{
+    color:#e4760f;
+    border: none;
+    padding: 0.4em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 80%;
+}
+
+
+
+#Pie{
+    background-color: #130fe4;
+    border: 0.5em solid #e4760f;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#Informacion{
+    width: 20%;
+    border-radius: 4em;
+    border: 0.5em solid #e4760f;
+    padding: 0.5em;
+    background-color: #e4760f;
+}
+
+#TextoInformacion{
+    color:#130fe4;
+
+}
+
+
+.footerText{
+    size: 3em;
+    color: #e4760f;
+}
+
+#comentarios{
+    display: none;
+    flex-direction: column;
+    border: 0.5em solid #130fe4;
+    border-radius: 4em;
+    background-color: #e4760f;
+    width: 40%;
+}
+
+.Comentario{
+    display: flex;
+    flex-direction: column;
+}
+
+#PlantillaComment{
+    display: none;
+}
+
+.AutorYFecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#Formulario_enviar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#NombreEmail{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+#ListaComentario{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
